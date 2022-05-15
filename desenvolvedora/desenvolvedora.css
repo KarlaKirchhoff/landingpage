@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'playlistscript';
+    src: url('../fontes/playlistscript.otf') format('opentype');
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+body{
+    width: 100vw; height: 100vh;
+    font-size: 100%;
+    background-color: #fdbe82;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

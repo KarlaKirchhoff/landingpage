@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Myeongjo&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+
+@font-face {
+    font-family: 'playlistscript';
+    src: url('fontes/playlistscript.otf') format('opentype');}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    width: 100vw; height: 100vh;
+    font-size: 100%;
+    background-image: linear-gradient(to top, rgba(196, 119, 46, 0.635), rgb(253, 190, 130, 0.635));
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
