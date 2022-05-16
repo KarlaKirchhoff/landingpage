@@ -4,7 +4,8 @@
 
 @font-face {
     font-family: 'playlistscript';
-    src: url('fontes/playlistscript.otf') format('opentype');}
+    src: url('../fontes/playlistscript.otf') format('opentype');
+}
 
 *{
     margin: 0px;
@@ -16,8 +17,13 @@
 body{
     width: 100vw; height: 100vh;
     font-size: 100%;
-    background-image: linear-gradient(to top, rgba(196, 119, 46, 0.635), rgb(253, 190, 130, 0.635));
+    background-image: linear-gradient(to top, rgba(196, 119, 46, 0.534), rgba(253, 189, 130, 0.158));
     background-repeat: no-repeat;
     background-position: center;
 
+}
+
+h2{
+    font-family: 'playlistscript', 'verdana';
+    color: rgb(39, 13, 10);
 }
