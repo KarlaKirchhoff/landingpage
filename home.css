@@ -25,7 +25,7 @@ body{
     
 }
 
-/*Começo do cabeçalho*/
+/*Começo do menu de navegação*/
 
 header{
     display: flex;
@@ -47,7 +47,7 @@ li{
 }
 
 
- /*fim do cabeçalho*/
+ /*fim do menu de navegação*/
 
 section{
     display: flex;

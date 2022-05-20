@@ -23,6 +23,51 @@ body{
 
 }
 
+/*Começo do menu de navegação*/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border: 2px solid palevioletred;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 10px 5px;
+    padding: 5px;
+    border: 1px solid pink;
+    border-radius: 5px;
+}
+
+/*fim do menu de navegação*/
+
+.apresentacao{
+    display:inline-flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2px 1px 1px 30px;
+    border: 2px solid red;
+}
+
+.imagem-inicial{
+    border:2px solid blue;
+    padding: 0px;
+    font-size: 8px;
+}
+
+.paragrafo-imagem-inicial{
+    position: relative;
+    border:1px solid yellow;
+}
+
+.texto{
+    border:2px solid purple;
+    margin: 2px;
+}
 h2{
     font-family: 'playlistscript', 'verdana';
     color: rgb(39, 13, 10);
